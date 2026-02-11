@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Index Page{% endblock %}</title>
+</head>
+<body>
+    {% include "temp/nav.html" %}
+    <h1>This is Index page</h1>
+    <main>
+        {% block content %} {% endblock %}
+
+    </main>
+</body>
+</html>

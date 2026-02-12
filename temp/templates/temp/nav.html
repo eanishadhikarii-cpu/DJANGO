@@ -1,11 +1,9 @@
-<nav>
-    <div>
-        <div>ADCS Project </div>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Student</li>
-            <li>Add Student</li>
+<nav class="navbar">
+<div class="logo">ADCS App </div>
+        <ul class="nav-links">
+            <li> <a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'student_entry' %}">Student Entry</a></li>
+            <li><a href="{% url 'student_list' %}">Student List</a></li>
         </ul>
-    </div>
 </nav>

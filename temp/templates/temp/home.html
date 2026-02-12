@@ -1,5 +1,15 @@
 {% extends "temp/index.html" %}
+{% load static %}
 {% block title %}Home Page{% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'temp/css/home.css' %}">
+{%  endblock %}
 {% block content %}
-<h1>Welcome to the Home Page</h1>
+<div class="home-hero"></div>
+    <h1> Welcome to Temp App</h1>
+    <p>Your gateway to managing student information efficiently.</p>
+    
+     <div class="button">
+        <a href="{% url 'student_entry' %}" class="btn"> Student entry</a>
+        <a href="{% url 'student_list' %}" class="btn"> Students list</a>
 {% endblock %}

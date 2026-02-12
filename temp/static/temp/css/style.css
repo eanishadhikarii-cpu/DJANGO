@@ -1,0 +1,29 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.container{
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(77, 20, 20, 0.815);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 000 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 400px;
+    
+
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(25, 36, 80, 0.633);
+    color: #000;
+    margin-top: 20px;
+}

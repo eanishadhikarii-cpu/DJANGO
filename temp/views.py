@@ -7,3 +7,9 @@ def home(request):
 
 def about(request):
     return render(request, 'temp/about.html')
+
+def student_entry(request):
+    return render(request, 'temp/student_entry.html')
+
+def student_list(request):
+    return render(request, 'temp/student_list.html')

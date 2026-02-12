@@ -21,7 +21,9 @@ from temp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home),
-    path('about/',views.about),
+    path('',views.home,name='home'),
+    path('about/',views.about,name='about'),
+    path('student_list/',views.student_list,name='student_list'),
+    path('student_entry/',views.student_entry,name='student_entry'),
     
 ]
